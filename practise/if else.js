@@ -1,3 +1,4 @@
+// letter grade
 var marks = prompt("Enter your marks: ");
 
 if (marks >= 80 && marks <= 100) console.log("A+");
