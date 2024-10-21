@@ -1,3 +1,4 @@
+// 5 times add two number using loop
 var result=0;
 for(var x=1; x<=5;x++)
 {
