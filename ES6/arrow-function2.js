@@ -16,7 +16,7 @@ let students = [
   },
 ];
 
-function studentsname() {
+function studentsname1() {
   return students
     .filter(function (x) {
       return x.cgpa > 2;
@@ -25,4 +25,4 @@ function studentsname() {
       return y.name;
     });
 }
-console.log(studentsname());
+console.log(studentsname1());
