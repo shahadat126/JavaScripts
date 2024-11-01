@@ -27,6 +27,6 @@ function studentsname1() {
 }
 console.log(studentsname1());
 
-//Arrow function
+//Arrow function without return bcz of one line statement 
 const studentsname2 = () => students.filter((x) => x.cgpa > 2).map((y) => y.name);
 console.log(studentsname2());
