@@ -33,3 +33,24 @@ console.log(add(10, 20));
 const add2 = (num1, num2) => num1 + num2;
 
 console.log(add2(50, 50));
+//arrow function syntax
+var arrow_function = () => {
+  console.log("arrow function syntax");
+};
+arrow_function();
+
+//arrow function with parameter
+//two way
+//first one no need () if one parameter used
+//2nd more than one parameter must need () parenthesis
+var arrow_function2 = (a) => {
+  return a;
+};
+console.log(arrow_function2(10));
+
+//2nd type
+var arrow_function3 = (a, b=30) => {
+  console.log(a + b);
+  
+};
+arrow_function3(20);
