@@ -24,3 +24,6 @@ function display2(a) {
 
 let ano = display2(10);
 console.log(ano(20));
+
+
+

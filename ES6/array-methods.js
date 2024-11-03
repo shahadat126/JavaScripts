@@ -1,37 +1,27 @@
-// Array methods
-// find() returns the value of the first array element that passes certain condition
-let numbers = [5, 55, 30, 40, 50];
+let number = [5, 10, 55, 22, 78];
+let evenNumbers = number.find((x) => x % 2 === 0);
+console.log(evenNumbers);
 
-const evenNumbers = (value, index, array) => {
-  if (value % 2 === 0) {
-    return value;
-  }
-};
+let numbers = [2, 4, 5, 7, 12, 21];
+const evenNumber = (x) => x % 2 === 0;
 
-let newNumbers = numbers.find(evenNumbers);
-// let newNumbers = numbers.find(x => x>25)
-console.log(newNumbers);
+let evenfirstnumberindex = numbers.findIndex(evenNumber);
+console.log(evenfirstnumberindex);
 
-// findIndex() returns the index of the first array element that passes certain condition
-console.log(numbers.findIndex(evenNumbers));
-
-const students = [
+let students = [
   {
     id: 101,
-    gpa: 3.5,
+    gpa: 3.84,
   },
   {
     id: 102,
-    gpa: 2,
+    gpa: 2.84,
   },
   {
     id: 103,
-    gpa: 4.5,
-  },
-  {
-    id: 104,
-    gpa: 5,
+    gpa: 3.54,
   },
 ];
+let studentid = students.find((x) => x.gpa > 3.5);
+// console.log(studentid.id);
 
-console.log(students.find((x) => x.gpa > 4));
