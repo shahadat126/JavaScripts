@@ -1,7 +1,8 @@
-// var message = function () {
-//   console.log("this is anonymous function");
-// };
-// message();
+//traditional function
+var message = function () {
+  console.log("this is anonymous function");
+};
+message();
 
 //passing anonymous function as argument
 
