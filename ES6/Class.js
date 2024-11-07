@@ -5,5 +5,5 @@ class student {
   }
 }
 
-let s1 = new student(101, "shimul khan");
+let s1 = new student(101, "shimul");
 console.log(s1);
