@@ -1,4 +1,5 @@
-//traditional function
+//anonymous function assigned in message
+// when assigned in variable its called function expression
 var message = function () {
   console.log("this is anonymous function");
 };
