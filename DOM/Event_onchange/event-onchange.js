@@ -3,11 +3,11 @@ var input1 = document.querySelector("input[name=Name]");
 input1.addEventListener("change", changeHandler);
 
 function changeHandler(a) {
-  console.log(a.type);
-  console.log(a);
+  //console.log(a.type);
+   //console.log(a);
   console.log(a.target);
-  console.log(a.target.className);
-  console.log(a.target.value);
+   console.log(a.target.className);
+   console.log(a.target.value);
 }
 
 //listener add with checkbox
